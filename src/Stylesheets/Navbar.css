@@ -17,12 +17,12 @@ nav {
   }
 }
 
-nav h1.Name {
+h1#Name {
   font-size: 28px;
   color: #FFF;
 }
 
-nav h1.Job {
+h1#Job {
   display: none
 }
 
@@ -86,10 +86,10 @@ li:hover {
   li {
     display: none
   }
-  nav h1.Name {
+  h1#Name {
     display: none
   }
-  nav h1.Job {
+  h1#Job {
     font-size: 28px;
     color: #FFF;
   }
@@ -103,7 +103,8 @@ li:hover {
     margin: 0
   }
 
-  .burger-menu {
+  .burger-menu,
+  .burger-menu.open {
     display: inline-block;
     cursor: pointer;
     right: 30px;
@@ -124,7 +125,20 @@ li:hover {
     width: 35px;
     height: 5px;
     background-color: rgb(99, 151, 184);
-    margin: 6px 0;
+    margin: 2px 0;
     transition: 0.4s;
+  }
+  .burger-menu.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+    transform: rotate(-45deg) translate(-4px, 4px);
+  }
+  
+  .burger-menu.open .bar2 {
+    opacity: 0;
+  }
+  
+  .burger-menu.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -6px);
+    transform: rotate(45deg) translate(-6px, -6px);
   }
 }
