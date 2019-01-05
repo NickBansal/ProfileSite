@@ -1,5 +1,6 @@
 import React from 'react'
 import Mountain from '../Stylesheets/Images/Mountain.JPG'
+import Me from '../Stylesheets/Images/Me.JPG'
 import '../Stylesheets/Navbar.css'
 
 const Navbar = () => {
@@ -23,6 +24,8 @@ const Navbar = () => {
                     <li>Links</li>
                 </ul>
             </nav>
+            <h1 id="MeJob">Full Stack Developer</h1>
+            <img id="MePic" src={Me} alt="Me"/>
         </div>
     )
 }
