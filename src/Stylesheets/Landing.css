@@ -1,3 +1,5 @@
+/* NAVABR */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -7,40 +9,13 @@ nav {
   animation: 1 fadein 0.5s forwards;
 }
 
-i {
-  color: white;
-  margin: 20px;
-  opacity: 0.6;
-  font-size: 40px
-}
-
-i:hover {
-  opacity: 1;
-  cursor: pointer
-}
-
-.Hamburger {
-  display: none
-}
-
-@keyframes fadein {
-  100% {
-    opacity: 1
-  }
-}
-
 h1#Name {
   font-size: 28px;
   color: #FFF;
 }
 
-h3 {
-  color: white;
-  font-size: 30px;
-  opacity: 0;
-  text-shadow: 1px 1px 7px black;
-  animation: 1 fadein 1s forwards;
-  /* animation-delay: 0.5s */
+.Hamburger {
+  display: none
 }
 
 .NavLinks {
@@ -59,6 +34,66 @@ li:hover {
   cursor: pointer;
   opacity: 1;
 }
+
+@keyframes fadein {
+  100% {
+    opacity: 1
+  }
+}
+
+/* ICONS */
+
+i {
+  color: white;
+  margin: 20px;
+  opacity: 0.6;
+  font-size: 40px;
+  /* animation: 1 fadein 1.5s forwards;
+  animation-delay: 1s */
+}
+
+i:hover {
+  opacity: 1;
+  cursor: pointer;
+  animation: infinite bounce 1.7s forwards;
+  /* animation-delay: 0.5s */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  15% {
+    transform: translateY(-15px);
+  }
+  20% {
+    transform: translateY(0px);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+  45% {
+    transform: translateY(-3px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
+
+
+/* MY DESCRIPTION */
+
+h3 {
+  color: white;
+  font-size: 30px;
+  opacity: 0;
+  text-shadow: 1px 1px 7px black;
+  animation: 1 fadein 1s forwards;
+}
+
 
 #MeJob {
   font-size: 50px;
