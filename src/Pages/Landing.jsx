@@ -4,8 +4,8 @@ import Me from '../Stylesheets/Images/Me.JPG'
 import IconLinks from '../Components/IconLinks'
 import Snowflakes from '../Components/Snowflakes'
 import DownArrow from '../Components/DownArrow';
-import Navbar from '../Components/Navbar'
-
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 import '../Stylesheets/Landing.css'
 
 const Landing = () => {
@@ -21,7 +21,6 @@ const Landing = () => {
         zIndex: '-2',
         backgroundPosition: 'center'
     }
-
     return (
         <div style={style} id="TitlePage">
             <Navbar />
@@ -33,6 +32,7 @@ const Landing = () => {
                 <img id="MePic" src={Me} alt="Me" />
             </div>
             <DownArrow />
+            <Footer />
         </div>
     )
 }

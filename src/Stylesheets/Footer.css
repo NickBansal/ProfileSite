@@ -1,0 +1,9 @@
+.Footer {
+    position: fixed;
+    padding: 5px 40px;
+    bottom: 0;
+    width: 100%;
+    background: #406fb6;
+    z-index: 999;
+    opacity: 1;
+}
