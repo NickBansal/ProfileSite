@@ -1,7 +1,7 @@
 #Skills {
     padding-top: 50px;
     height: 100vh;
-    background:	#6c6d78;
+    background:	#687189;
     color: white;
     padding: 100px 40px;
 }
@@ -16,19 +16,40 @@ li {
     list-style: none
 }
 
-h4 {
-    font-size: 30px
-}
 
 .SkillsList {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    margin: 10px auto
+    width: 100%;
+    margin: 15px auto;
+    font-size: 19px
+}
+
+.SkillsList h4 {
+    font-size: 25px
 }
 
 .SkillArea {
     display: flex;
-    /* flex-direction:  */
+}
+
+.SkillArea li {
+    font-size: 20px
+}
+
+@media (max-width: 650px) {
+    #Skills h1 {
+        font-size: 35px;
+    }
+    .SkillArea {
+        flex-direction: column;
+    }
+    .SkillsList h4 {
+        font-size: 20px
+    }
+    .SkillArea li {
+        font-size: 18px
+    }
 }

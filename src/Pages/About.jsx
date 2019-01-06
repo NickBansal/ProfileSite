@@ -9,7 +9,7 @@ const About = () => {
             <div className="AboutParagraph">
                 <br />
                 <p className="part2"> I'm a full stack developer who has recently graduated from an intensive coding bootcamp at Northcoders,
-                    looking to continue a career within a creative and technical environment.</p>
+                    looking to find a career within a creative and technical environment.</p>
                 <br />
                 <br />
                 <p className="part3">As well as obtaining a wealth of coding knowledge I have also learnt a
