@@ -22,7 +22,6 @@ const Navbar = () => {
         backgroundPosition: 'center'
     }
 
-
     return (
         <div style={style} id="TitlePage">
             <nav>
@@ -33,10 +32,12 @@ const Navbar = () => {
                 <ScrollIntoView selector="#About">
                     <li>About</li>
                 </ScrollIntoView>
+                <ScrollIntoView selector="#Skills">
+                    <li>Skills</li>
+                </ScrollIntoView>
                 <ScrollIntoView selector="#Projects">
                     <li>Projects</li>
                 </ScrollIntoView>
-                    <li>Contact</li>
                 </ul>
             </nav>
             <div style={{ paddingTop: '100px' }}>
