@@ -15,6 +15,7 @@ const Navbar = () => {
         width: '100%',
         height: '100%',
         backgroundSize: 'cover',
+        backgroundAttachment: 'fixed',
         zIndex: '-2',
         backgroundPosition: 'center'
     }
