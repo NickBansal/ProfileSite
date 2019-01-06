@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Stylesheets/App.css';
-import Landing from './Components/Landing'
-import About from './Components/About'
+import Landing from './Pages/Landing'
+import About from './Pages/About'
 
 class App extends Component {
   render() {
