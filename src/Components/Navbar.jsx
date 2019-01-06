@@ -12,7 +12,7 @@ class Navbar extends Component {
     render() {
         const style = {
             backgroundImage: `url(${Mountain})`,
-            minHeight: '85vh',
+            minHeight: '100vh',
             top: '0',
             left: '0',
             width: '100%',
@@ -25,7 +25,6 @@ class Navbar extends Component {
             <div style={style} className="TitlePage">
                 <nav>
                     <h1 id="Name">Nick Bansal</h1>
-                    <h1 id="Job">Full Stack Developer</h1>
                     <ul className="NavLinks">
                         <li>About</li>
                         <li>Projects</li>
@@ -41,8 +40,12 @@ class Navbar extends Component {
                         </div>
                     </div>
                 </nav>
+                <h3>Author, DreamWeaver, Visionary...</h3>
                 <h1 id="MeJob">Full Stack Developer</h1>
                 <img id="MePic" src={Me} alt="Me"/>
+                <div>
+                    
+                </div>
             </div>
         )
     }
