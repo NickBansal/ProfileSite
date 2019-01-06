@@ -1,9 +1,19 @@
 .Footer {
     position: fixed;
+    display: flex;
+    justify-content: space-around;
     padding: 5px 40px;
     bottom: 0;
     width: 100%;
-    background: #406fb6;
+    background: #eeeaec;
     z-index: 999;
     opacity: 1;
+    font-size: 20px
+}
+
+@media (max-width: 670px) {
+    .Footer {
+        flex-direction: column;
+        font-size: 15px
+    }
 }
