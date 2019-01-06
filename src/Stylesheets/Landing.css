@@ -18,6 +18,12 @@ nav {
 h1#Name {
   font-size: 28px;
   color: #FFF;
+  opacity: 0.75
+}
+
+h1#Name:hover {
+  cursor: pointer;
+  opacity: 1
 }
 
 .NavLinks {

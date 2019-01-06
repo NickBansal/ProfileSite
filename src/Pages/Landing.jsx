@@ -24,9 +24,11 @@ const Navbar = () => {
 
 
     return (
-        <div style={style} className="TitlePage">
+        <div style={style} id="TitlePage">
             <nav>
-                <h1 id="Name">Nick Bansal</h1>
+                <ScrollIntoView selector="#TitlePage">
+                    <h1 id="Name">Nick Bansal</h1>
+                </ScrollIntoView>
                 <ul className="NavLinks">
                 <ScrollIntoView selector="#About">
                     <li>About</li>
