@@ -1,9 +1,66 @@
 #About {
     height: 100vh;
     background:	#9aa5c7;
-    color: white
+    color: white;
+    padding: 100px 40px;
 }
 
 #About h1 {
-    padding: 40px
+    font-size: 50px;
+    text-shadow: 1px 1px 7px black;
+    color: white;
+}
+
+.AboutParagraph {
+    display: flex;
+    flex-direction: column
+}
+
+.part1 {
+    font-size: 40px;
+    text-shadow: 1px 1px 7px black
+}
+
+.part2, .part3 {
+    width: 80%;
+    margin: 10px auto;
+    color: #35293b;
+    font-size: 20px
+}
+
+.i-skill {
+    margin: 10px 10px
+}
+
+.iconSkills {
+    margin-top: 25px
+}
+
+.fa-heart {
+    color: #df0f0f
+}
+
+.fa-4x {
+    animation: infinite heartbeat 1.5s forwards
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale( .75 );
+  }
+  20% {
+    transform: scale( 1 );
+  }
+  40% {
+    transform: scale( .75 );
+  }
+  60% {
+    transform: scale( 1 );
+  }
+  80% {
+    transform: scale( .75 );
+  }
+  100% {
+    transform: scale( .75 );
+  }
 }

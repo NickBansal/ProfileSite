@@ -1,11 +1,11 @@
-i {
+i.i-link  {
     color: white;
     margin: 20px;
     opacity: 0.6;
-    font-size: 40px;
+    /* font-size: 40px; */
 }
 
-i:hover {
+i.i-link:hover {
     opacity: 1;
     cursor: pointer;
     animation: 1 bounce 1.2s forwards;
@@ -19,13 +19,13 @@ i:hover {
         transform: translateY(-5px);
     }
     20% {
-        transform: translateY(0px);
+        transform: translateY(3px);
     }
     30% {
         transform: translateY(-3px);
     }
     40% {
-        transform: translateY(0px);
+        transform: translateY(1px);
     }
     45% {
         transform: translateY(-2px);
