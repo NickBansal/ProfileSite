@@ -48,6 +48,10 @@ h3 {
 }
 
 @media (max-width: 650px) {
+  #TitlePage {
+    height: 100%
+  }
+
   #MeJob {
     font-size: 35px;
   }

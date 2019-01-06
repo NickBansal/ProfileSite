@@ -71,6 +71,10 @@
 }
 
 @media (max-width: 650px) {
+    #About {
+        height: 100%;
+    }
+    
     #About h1 {
         font-size: 35px;
     }
