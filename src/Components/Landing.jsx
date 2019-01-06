@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Mountain from '../Stylesheets/Images/Mountain.JPG'
 import Me from '../Stylesheets/Images/Me.JPG'
-import '../Stylesheets/Navbar.css'
+import '../Stylesheets/Landing.css'
 
 class Navbar extends Component {
 
@@ -18,7 +18,7 @@ class Navbar extends Component {
             width: '100%',
             height: '100%',
             backgroundSize: 'cover',
-            zIndex: '-1',
+            zIndex: '-2',
             backgroundPosition: 'center'
         }
         return (
@@ -42,10 +42,13 @@ class Navbar extends Component {
                 </nav>
                 <h3>Author, DreamWeaver, Visionary...</h3>
                 <h1 id="MeJob">Full Stack Developer</h1>
-                <img id="MePic" src={Me} alt="Me"/>
-                <div>
-                    
+                <div className="ContactIcons">
+                    <i class="fab fa-github fa-3x"></i>
+                    <i class="fab fa-stack-overflow fa-3x"></i>
+                    <i class="fab fa-codepen fa-3x"></i>
+                    <i class="fas fa-code fa-3x"></i>
                 </div>
+                <img id="MePic" src={Me} alt="Me"/>
             </div>
         )
     }

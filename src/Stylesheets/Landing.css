@@ -7,6 +7,18 @@ nav {
   animation: 1 fadein 0.5s forwards;
 }
 
+i {
+  color: white;
+  margin: 20px;
+  opacity: 0.6;
+  font-size: 40px
+}
+
+i:hover {
+  opacity: 1;
+  cursor: pointer
+}
+
 .Hamburger {
   display: none
 }
@@ -62,7 +74,6 @@ li:hover {
   width: 270px;
   border-radius: 120px;
   border: 5px solid white;
-  margin-top: 30px;
   margin-left: 450px;
   opacity: 0;
   animation: 1 picSlide 1s forwards;
