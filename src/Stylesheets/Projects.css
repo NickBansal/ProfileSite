@@ -1,8 +1,9 @@
 #Projects {
-    padding-top: 50px;
     height: 100vh;
     background:	#2d2e32;
     padding: 100px 40px;
+    display: flex;
+    flex-direction: column
 }
 
 #Projects h1 {
@@ -11,8 +12,21 @@
     color: white;
 }
 
+.ProjectItem {
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px
+}
+
 @media (max-width: 650px) {
     #Projects h1 {
         font-size: 35px;
+    }
+
+    #Projects {
+        height: 100%;
     }
 }
