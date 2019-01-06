@@ -20,6 +20,8 @@ const Navbar = () => {
         zIndex: '-2',
         backgroundPosition: 'center'
     }
+
+
     return (
         <div style={style} className="TitlePage">
             <nav>
@@ -30,11 +32,13 @@ const Navbar = () => {
                     <li>Contact</li>
                 </ul>
             </nav>
-            <h3>Author, DreamWeaver, Visionary...</h3>
-            <h1 id="MeJob">Full Stack Developer</h1>
-            <IconLinks />
-            <Snowflakes />
-            <img id="MePic" src={Me} alt="Me" />
+            <div style={{ paddingTop: '100px' }}>
+                <h3>Author, DreamWeaver, Visionary...</h3>
+                <h1 id="MeJob">Full Stack Developer</h1>
+                <IconLinks />
+                <Snowflakes />
+                <img id="MePic" src={Me} alt="Me" />
+            </div>
             <DownArrow />
         </div>
     )

@@ -1,12 +1,18 @@
 /* NAVBAR */
 
 nav {
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  padding: 5px 40px;
   align-items: center;
   opacity: 0;
+  -webkit-animation: 1 fadein 0.5s forwards;
   animation: 1 fadein 0.5s forwards;
+  width: 100%;
+  background: rgb(5, 189, 250);
+  z-index: 999;
+  opacity: 0.6;
 }
 
 h1#Name {
