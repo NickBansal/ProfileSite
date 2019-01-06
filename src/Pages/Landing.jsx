@@ -4,6 +4,7 @@ import Me from '../Stylesheets/Images/Me.JPG'
 import '../Stylesheets/Landing.css'
 import IconLinks from '../Components/IconLinks'
 import Snowflakes from '../Components/Snowflakes'
+import DownArrow from '../Components/DownArrow'
 
 class Navbar extends Component {
 
@@ -47,6 +48,7 @@ class Navbar extends Component {
                 <IconLinks />
                 <Snowflakes />
                 <img id="MePic" src={Me} alt="Me"/>
+                <DownArrow />
             </div>
         )
     }
