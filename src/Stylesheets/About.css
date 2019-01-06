@@ -64,3 +64,18 @@
     transform: scale( .75 );
   }
 }
+
+@media (max-width: 650px) {
+    #About h1 {
+        font-size: 35px;
+    }
+
+    .part1 {
+        font-size: 20px;
+    }
+
+    .part2, .part3 {
+        width: 95%;
+        font-size: 20px
+    }
+}
