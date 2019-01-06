@@ -10,7 +10,7 @@ nav {
   -webkit-animation: 1 fadein 0.5s forwards;
   animation: 1 fadein 0.5s forwards;
   width: 100%;
-  background: rgb(5, 189, 250);
+  background: #406fb6;
   z-index: 999;
   opacity: 0.6;
 }
@@ -18,10 +18,6 @@ nav {
 h1#Name {
   font-size: 28px;
   color: #FFF;
-}
-
-.Hamburger {
-  display: none
 }
 
 .NavLinks {

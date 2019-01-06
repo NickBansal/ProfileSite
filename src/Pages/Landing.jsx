@@ -3,7 +3,8 @@ import Mountain from '../Stylesheets/Images/Mountain.JPG'
 import Me from '../Stylesheets/Images/Me.JPG'
 import IconLinks from '../Components/IconLinks'
 import Snowflakes from '../Components/Snowflakes'
-import DownArrow from '../Components/DownArrow'
+import DownArrow from '../Components/DownArrow';
+import ScrollIntoView from 'react-scroll-into-view'
 
 import '../Stylesheets/Landing.css'
 
@@ -27,8 +28,12 @@ const Navbar = () => {
             <nav>
                 <h1 id="Name">Nick Bansal</h1>
                 <ul className="NavLinks">
+                <ScrollIntoView selector="#About">
                     <li>About</li>
+                </ScrollIntoView>
+                <ScrollIntoView selector="#Projects">
                     <li>Projects</li>
+                </ScrollIntoView>
                     <li>Contact</li>
                 </ul>
             </nav>
