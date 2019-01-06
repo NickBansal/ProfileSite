@@ -92,64 +92,24 @@ h3 {
 }
 
 @media (max-width: 650px) {
-  .NavLinks {
-    display: none
-  }
-
   #MeJob {
     font-size: 35px;
+  }
+
+  #MePic {
+    width: 250px;
   }
 
   h3 {
     font-size: 20px;
   }
 
-  .Hamburger {
+  li {
+    margin: 0 50px
+  }
+
+  nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .Hamburger h1 {
-    margin: 0
-  }
-
-  .burger-menu,
-  .burger-menu.open {
-    display: inline-block;
-    cursor: pointer;
-    right: 30px;
-    z-index: 9999;
-    background: whitesmoke;
-    padding: 13px;
-    border-radius: 25px;
-    box-shadow: 0 1px 4px rgb(152, 201, 232);
-  }
-
-  .burger-menu {
-    margin-right: 20px;
-  }
-
-  .burger-menu .bar1,
-  .bar2,
-  .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: rgb(99, 151, 184);
-    margin: 2px 0;
-    transition: 0.4s;
-  }
-  .burger-menu.open .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-4px, 4px);
-    transform: rotate(-45deg) translate(-4px, 4px);
-  }
-  
-  .burger-menu.open .bar2 {
-    opacity: 0;
-  }
-  
-  .burger-menu.open .bar3 {
-    -webkit-transform: rotate(45deg) translate(-6px, -6px);
-    transform: rotate(45deg) translate(-6px, -6px);
+    flex-direction: column
   }
 }

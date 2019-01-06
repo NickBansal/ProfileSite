@@ -3,19 +3,19 @@ import '../Stylesheets/Snowflakes.css'
 
 const SnowFlakes = () => {
     return (
-        <div class="snowflakes" aria-hidden="true">
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❅</div>
+        <div className="snowflakes" aria-hidden="true">
+            <div className="snowflake">❅</div>
+            <div className="snowflake">❅</div>
+            <div className="snowflake">❅</div>
+            <div className="snowflake">❅</div>
+            <div className="snowflake">❅</div>
+            <div className="snowflake">❅</div>
+            <div className="snowflake">❅</div>
+            <div className="snowflake">❅</div>
+            <div className="snowflake">❅</div>
+            <div className="snowflake">❅</div>
+            <div className="snowflake">❅</div>
+            <div className="snowflake">❅</div>
         </div>
     )
 }
