@@ -11,7 +11,6 @@ const Skills = () => {
                     <li>ReactJS</li>
                     <li>HTML5/CSS</li>
                     <li>JQuery/Vanilla JS</li>
-                    <li>BootStrap</li>
                     <li>p5.js</li>
                 </ul>
             </div>

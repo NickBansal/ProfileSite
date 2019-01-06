@@ -21,7 +21,7 @@
     text-shadow: 1px 1px 7px black
 }
 
-.part2, .part3 {
+.part2, .part3, .part4 {
     width: 70%;
     margin: 10px auto;
     color: #35293b;
@@ -37,11 +37,16 @@
 }
 
 .fa-heart {
-    color: #df0f0f
+    color: #df0f0f;
 }
 
 .fa-4x {
     animation: infinite heartbeat 1.5s forwards
+}
+
+.SingleWord {
+    background: lightcoral;
+    color: whitesmoke
 }
 
 @keyframes heartbeat {

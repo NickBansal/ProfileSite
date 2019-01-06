@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Stylesheets/About.css' 
+import '../Stylesheets/About.css'
 
 const About = () => {
     return (
@@ -15,6 +15,11 @@ const About = () => {
                 <p className="part3">As well as obtaining a wealth of coding knowledge I have also learnt a
                     lot of vital skills whilst on this bootcamp such as
                     Test Driven development, Pair programming and Functional Programming</p>
+                <br />
+                <br />
+                <p className="part4">A list of the vital skills I have learnt 
+                can be found in the <span className="SingleWord"> Skills</span> section below</p>
+      
                 <div className="iconSkills">
                     <i className="i-skill fab fa-js fa-3x"></i>
                     <i className="i-skill fab fa-react fa-3x"></i>
