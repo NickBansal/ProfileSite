@@ -4,11 +4,11 @@ import Me from '../Stylesheets/Images/Me.JPG'
 import IconLinks from '../Components/IconLinks'
 import Snowflakes from '../Components/Snowflakes'
 import DownArrow from '../Components/DownArrow';
-import ScrollIntoView from 'react-scroll-into-view'
+import Navbar from '../Components/Navbar'
 
 import '../Stylesheets/Landing.css'
 
-const Navbar = () => {
+const Landing = () => {
     const style = {
         backgroundImage: `url(${Mountain})`,
         minHeight: '100vh',
@@ -24,22 +24,7 @@ const Navbar = () => {
 
     return (
         <div style={style} id="TitlePage">
-            <nav>
-                <ScrollIntoView selector="#TitlePage">
-                    <h1 id="Name">Nick Bansal</h1>
-                </ScrollIntoView>
-                <ul className="NavLinks">
-                <ScrollIntoView selector="#About">
-                    <li>About</li>
-                </ScrollIntoView>
-                <ScrollIntoView selector="#Skills">
-                    <li>Skills</li>
-                </ScrollIntoView>
-                <ScrollIntoView selector="#Projects">
-                    <li>Projects</li>
-                </ScrollIntoView>
-                </ul>
-            </nav>
+            <Navbar />
             <div style={{ paddingTop: '100px' }}>
                 <h3>Author, DreamWeaver, Visionary...</h3>
                 <h1 id="MeJob">Full Stack Developer</h1>
@@ -52,4 +37,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Landing
