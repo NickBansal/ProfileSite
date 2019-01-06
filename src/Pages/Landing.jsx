@@ -1,10 +1,11 @@
 import React from 'react'
 import Mountain from '../Stylesheets/Images/Mountain.JPG'
 import Me from '../Stylesheets/Images/Me.JPG'
-import '../Stylesheets/Landing.css'
 import IconLinks from '../Components/IconLinks'
 import Snowflakes from '../Components/Snowflakes'
 import DownArrow from '../Components/DownArrow'
+
+import '../Stylesheets/Landing.css'
 
 const Navbar = () => {
     const style = {
