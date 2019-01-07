@@ -10,7 +10,28 @@ const JSProjects = () => {
                 <div className="hvrbox-text">
                     <h2>JS Projects</h2>
                     <br />
-                    <p>ComicNews is a news aggregation demo site built in React.js</p>
+                    <p>I have built a few stand alone projects using ReactJS. 
+                        The projects have not been deployed so in order to play you will have to follow the instructions on the readme</p>
+                    <br />
+                    <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://github.com/NickBansal/TicTacToe">Tic Tac Toe - with AI
+                    </a>
+                    <br />
+                    <br />
+                    <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://github.com/NickBansal/GameOfLife">Game of Life
+                    </a>
+                    <br />
+                    <br />
+                    <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://github.com/NickBansal/Snake">Snake
+                    </a>
                 </div>
             </div>
         </div>

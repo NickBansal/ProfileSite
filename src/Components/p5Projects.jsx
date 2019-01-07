@@ -12,8 +12,9 @@ const P5Projects = () => {
                 <br/>
                 <p>I have recently taught myself how to build interesting projects using p5.JS</p>
                 <br />
-                <p>The links can be found the these projects below, although not completed, they still offer a lot of fun</p>
-                <br />
+                <p>The links can be found the these projects below, although not completed, they still offer a lot of fun. 
+                Click on the link, press play - Enjoy
+                </p>
                 <br />
                 <a
                 rel="noopener noreferrer"
