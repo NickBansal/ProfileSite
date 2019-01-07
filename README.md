@@ -4,7 +4,7 @@
 Welcome to the wonderful world of me - This is my profile site made from scratch using ReactJS showcasing my skills and also giving links to my other projects
 
 
-## Using my site
+## Using this site
 I have deployed my project on the following link using Heroku: https://nickbansal.herokuapp.com/ for your viewing pleasure. Please feel free to browse the site.
 
 ## Functionality
@@ -17,6 +17,10 @@ I have inserted links to my public profiles here including Github, codewars, sta
 
 ### - Project Page
 I have listed all the projects that I feel would be of initerest to look at and I have used a carousel from [react-slick](https://react-slick.neostack.com/) in order to show them all
+
+## Testing
+All testing was completed using [Enzyme](https://airbnb.io/enzyme/docs/api/) and [Jest](https://jestjs.io/).
+
 
 ## Installing a Local Copy
 

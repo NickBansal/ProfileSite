@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Landing /> Component matches the snapshot 1`] = `
+<div
+  id="TitlePage"
+  style={
+    Object {
+      "backgroundAttachment": "fixed",
+      "backgroundImage": "url(Mountain.JPG)",
+      "backgroundPosition": "center",
+      "backgroundSize": "cover",
+      "height": "100%",
+      "left": "0",
+      "minHeight": "100vh",
+      "top": "0",
+      "width": "100%",
+      "zIndex": "-2",
+    }
+  }
+>
+  <Navbar />
+  <div
+    style={
+      Object {
+        "paddingTop": "100px",
+      }
+    }
+  >
+    <h3>
+      Author, DreamWeaver, Visionary...
+    </h3>
+    <h1
+      id="MeJob"
+    >
+      Full Stack Developer
+    </h1>
+    <IconLinks />
+    <SnowFlakes />
+    <img
+      alt="Me"
+      id="MePic"
+      src="Me.JPG"
+    />
+  </div>
+  <DownArrow />
+  <Footer />
+</div>
+`;
