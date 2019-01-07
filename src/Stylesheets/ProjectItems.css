@@ -96,6 +96,10 @@ a {
 	text-decoration: none;
 }
 
+a.MyProjects {
+	font-size: 28px
+}
+
 a:hover {
 	text-decoration: underline
 }

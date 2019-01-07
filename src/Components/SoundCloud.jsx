@@ -17,6 +17,7 @@ const SoundCloud = () => {
                     <p>The following playlist was created using Logic Audio, Massive, Maschine and a host of other VST's</p>
                     <br />
                     <a
+                    className="MyProjects"
                     rel="noopener noreferrer"
                     target="_blank"
                     href="https://soundcloud.com/bansal321/tracks">Playlist

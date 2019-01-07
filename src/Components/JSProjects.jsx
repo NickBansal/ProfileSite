@@ -14,6 +14,7 @@ const JSProjects = () => {
                         The projects have not been deployed so in order to play you will have to follow the instructions on the readme</p>
                     <br />
                     <a
+                    className="MyProjects"
                     rel="noopener noreferrer"
                     target="_blank"
                     href="https://github.com/NickBansal/TicTacToe">Tic Tac Toe - with AI
@@ -21,6 +22,7 @@ const JSProjects = () => {
                     <br />
                     <br />
                     <a
+                    className="MyProjects"
                     rel="noopener noreferrer"
                     target="_blank"
                     href="https://github.com/NickBansal/GameOfLife">Game of Life
@@ -28,6 +30,7 @@ const JSProjects = () => {
                     <br />
                     <br />
                     <a
+                    className="MyProjects"
                     rel="noopener noreferrer"
                     target="_blank"
                     href="https://github.com/NickBansal/Snake">Snake

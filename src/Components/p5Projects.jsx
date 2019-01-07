@@ -17,6 +17,7 @@ const P5Projects = () => {
                 </p>
                 <br />
                 <a
+                className="MyProjects"
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://editor.p5js.org/bansal321/sketches/rJtdJIBg4">Space Invaders
@@ -24,6 +25,7 @@ const P5Projects = () => {
                 <br />
                 <br />
                 <a
+                className="MyProjects"
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://editor.p5js.org/bansal321/sketches/HJAFXebeV">Breakout

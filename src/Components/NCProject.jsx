@@ -15,6 +15,7 @@ const NCProject = () => {
                 <p>I created both the front end and the back end of this project and the links can be found below</p>
                 <br/>
                 <a
+                className="MyProjects"
                 rel="noopener noreferrer"
                 target="_blank"
                 href="http://evening-plains-23561.herokuapp.com/">WebSite Link
@@ -22,6 +23,7 @@ const NCProject = () => {
                 <br/>
                 <br/>
                 <a
+                className="MyProjects"
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://github.com/NickBansal/Comic-News">Github - FrontEnd
@@ -29,6 +31,7 @@ const NCProject = () => {
                 <br/>
                 <br/>
                 <a
+                className="MyProjects"
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://github.com/NickBansal/Comic-News-Backend">Github - BackEnd
