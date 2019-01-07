@@ -12,17 +12,40 @@
     color: white;
 }
 
-.ProjectItem {
-    width: 150px;
-    height: 150px;
-    background: white;
-    margin: 10px;
-    display: inline-block;
-    border-radius: 5px
+.ProjectFull {
+    width: 80%;
+    margin: 40px auto
+}
+
+.slick-dots li button:before {
+    color: white;
+    opacity: 0.5
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: white
+}
+
+div.ProjectItem {
+    height: 400px;
+    width: 400px;
+    background: orange;
+    margin: 40px auto;
+    border-radius: 20px
+}
+
+div.ProjectItem:hover {
+    cursor: pointer;
+    filter: grayscale(70%)
 }
 
 @media (max-width: 650px) {
     #Projects h1 {
         font-size: 35px;
+    }
+    div.ProjectItem {
+        height: 200px;
+        width: 200px;
     }
 }
