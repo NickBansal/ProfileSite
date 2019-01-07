@@ -19,12 +19,21 @@
 
 .slick-dots li button:before {
     color: white;
-    opacity: 0.5
+    opacity: 0.5;
+    font-size: 8px
 }
 
 .slick-dots li.slick-active button:before {
     opacity: 1;
-    color: white
+    color: white;
+    font-size: 12px
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    color: #fff;
 }
 
 @media (max-width: 650px) {
