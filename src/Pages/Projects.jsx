@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import JSProjects from '../Components/JSProjects'
 import P5Projects from '../Components/p5Projects'
 import NCProject from '../Components/NCProject'
+import SoundCloud from '../Components/SoundCloud'
 
 const Projects = () => {
 
@@ -28,6 +29,9 @@ const Projects = () => {
                     </div>
                     <div>
                         <JSProjects />
+                    </div>
+                    <div>
+                        <SoundCloud />
                     </div>
                 </Slider>
             </div>
