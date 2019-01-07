@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Stylesheets/Projects.css'
+import Slider from "react-slick";
 
 const Projects = () => {
     return (
