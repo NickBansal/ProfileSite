@@ -28,13 +28,13 @@
 }
 
 div.ProjectItem {
-    height: 400px;
-    width: 400px;
-    background: orange;
-    margin: 40px auto;
+    height: 450px;
+    width: 450px;
+    margin: 30px auto;
     border-radius: 20px;
     background-size: 100% 99.9%;
-    z-index: -2
+    z-index: -2;
+    border: 4px solid white
 }
 
 div.ProjectItem:hover {
@@ -47,7 +47,7 @@ div.ProjectItem:hover {
         font-size: 35px;
     }
     div.ProjectItem {
-        height: 200px;
-        width: 200px;
+        height: 250px;
+        width: 250px;
     }
 }
