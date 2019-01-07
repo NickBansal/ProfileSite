@@ -8,14 +8,14 @@ const P5Projects = () => {
         <img src={p5} alt="JS" className="hvrbox-layer_bottom" />
         <div className="hvrbox-layer_top hvrbox-layer_scale">
             <div className="hvrbox-text">
-                <h2>p5.Js Projects</h2>
+                <h2> p5.Js Projects </h2>
                 <br/>
                 <p>I have recently taught myself how to build interesting projects using p5.JS</p>
-                <br />
+                <br className="Break"/>
                 <p>The links can be found the these projects below, although not completed, they still offer a lot of fun. 
                 Click on the link, press play - Enjoy
                 </p>
-                <br />
+                <br className="Break"/>
                 <a
                 className="MyProjects"
                 rel="noopener noreferrer"

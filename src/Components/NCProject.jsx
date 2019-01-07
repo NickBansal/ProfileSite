@@ -11,9 +11,9 @@ const NCProject = () => {
                 <h2>NC Comic-News</h2>
                 <br/>
                 <p>ComicNews is a news aggregation demo site built in React.js</p>
-                <br/>
+                <br className="Break"/>
                 <p>I created both the front end and the back end of this project and the links can be found below</p>
-                <br/>
+                <br className="Break"/>
                 <a
                 className="MyProjects"
                 rel="noopener noreferrer"

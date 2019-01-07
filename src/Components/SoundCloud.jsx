@@ -13,9 +13,9 @@ const SoundCloud = () => {
                     <p>A huge passion of mine is music production and although this doesnt showcase my coding skills
                         I felt it neccessary to include it in my site
                     </p>
-                    <br />
+                    <br className="Break"/>
                     <p>The following playlist was created using Logic Audio, Massive, Maschine and a host of other VST's</p>
-                    <br />
+                    <br className="Break"/>
                     <a
                     className="MyProjects"
                     rel="noopener noreferrer"

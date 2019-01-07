@@ -114,4 +114,22 @@ a:hover {
 		height: 250px;
     	width: 250px;
 	}
+
+	.hvrbox .hvrbox-text p {
+		display: none
+	}
+
+	.hvrbox .hvrbox-text br.Break {
+		display: none
+	}
+
+	.hvrbox-text h2 {
+		height: 40px;
+		width: 100%
+	}
+
+	a.MyProjects {
+		font-size: 18px
+	}
+
 }
