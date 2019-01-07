@@ -1,12 +1,12 @@
 import React from 'react'
 import '../Stylesheets/Projects.css'
 import Slider from "react-slick";
-import NCProfile from '../Stylesheets/Images/NC.png'
-import p5 from '../Stylesheets/Images/p5.png'
-import JS from '../Stylesheets/Images/JS.png'
+import JSProjects from '../Components/JSProjects'
+import P5Projects from '../Components/p5Projects'
+import NCProject from '../Components/NCProject'
 
 const Projects = () => {
-    
+
     const settings = {
         dots: true,
         infinite: true,
@@ -19,26 +19,17 @@ const Projects = () => {
         <div id="Projects">
             <h1>Projects</h1>
             <div className="ProjectFull">
-            <Slider {...settings}>
-                <div>
-                    <div 
-                    style={{ backgroundImage: `url(${NCProfile})` }}
-                    className="ProjectItem nc-profile">
+                <Slider {...settings}>
+                    <div>
+                        <NCProject />
                     </div>
-                </div>
-                <div>
-                    <div 
-                    style={{ backgroundImage: `url(${p5})` }}
-                    className="ProjectItem">
+                    <div>
+                        <P5Projects />
                     </div>
-                </div>
-                <div>
-                    <div 
-                    style={{ backgroundImage: `url(${JS})` }}
-                    className="ProjectItem">
+                    <div>
+                        <JSProjects />
                     </div>
-                </div>
-            </Slider>
+                </Slider>
             </div>
         </div>
     )
