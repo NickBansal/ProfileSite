@@ -11,13 +11,11 @@ const About = () => {
                 <p className="part2"> I'm a full stack developer who has recently graduated from an intensive coding bootcamp at Northcoders,
                     looking to find a career within a creative and technical environment.</p>
                 <br />
-                <br />
                 <p className="part3">As well as obtaining a wealth of coding knowledge I have also learnt a
                     lot of vital skills whilst on this bootcamp such as
                     Test Driven development, Pair programming and Functional Programming</p>
                 <br />
-                <br />
-                <p className="part4">A list of the vital skills I have learnt 
+                <p className="part4">Always looking to increase my skillsets and learn new technologies. A list of the vital skills I have learnt 
                 can be found in the <span className="SingleWord"> Skills</span> section below</p>
       
                 <div className="iconSkills">

@@ -8,9 +8,25 @@ const P5Projects = () => {
         <img src={p5} alt="JS" className="hvrbox-layer_bottom" />
         <div className="hvrbox-layer_top hvrbox-layer_scale">
             <div className="hvrbox-text">
-                <h2>p5.JS Projects</h2>
+                <h2>p5.Js Projects</h2>
                 <br/>
-                <p>ComicNews is a news aggregation demo site built in React.js</p>
+                <p>I have recently taught myself how to build interesting projects using p5.JS</p>
+                <br />
+                <p>The links can be found the these projects below, although not completed, they still offer a lot of fun</p>
+                <br />
+                <br />
+                <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://editor.p5js.org/bansal321/sketches/rJtdJIBg4">Space Invaders
+                </a>
+                <br />
+                <br />
+                <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://editor.p5js.org/bansal321/sketches/HJAFXebeV">Breakout
+                </a>
             </div>
         </div>
     </div>

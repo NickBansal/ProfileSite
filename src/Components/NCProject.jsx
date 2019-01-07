@@ -17,7 +17,7 @@ const NCProject = () => {
                 <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="http://evening-plains-23561.herokuapp.com/">WebSite
+                href="http://evening-plains-23561.herokuapp.com/">WebSite Link
                 </a>
                 <br/>
                 <br/>
