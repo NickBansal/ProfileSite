@@ -43,19 +43,14 @@
 .hvrbox.active .hvrbox-layer_top {
 	opacity: 1;
 	cursor: pointer;
+	padding: 10px
 }
 .hvrbox .hvrbox-text {
 	text-align: center;
 	font-size: 18px;
 	display: inline-block;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
 }
+
 .hvrbox .hvrbox-text_mobile {
 	font-size: 15px;
 	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
@@ -82,6 +77,22 @@
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
+}
+
+.hvrbox-text h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	height: 60px;
+	color: black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+a {
+	color: white;
+	margin: 20px
 }
 
 @media (max-width: 650px) {
