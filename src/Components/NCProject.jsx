@@ -12,7 +12,7 @@ const NCProject = () => {
                 <br/>
                 <p>ComicNews is a news aggregation demo site built in React.js</p>
                 <br/>
-                <p>I created both front end and back end of this project and the links can be found below</p>
+                <p>I created both the front end and the back end of this project and the links can be found below</p>
                 <br/>
                 <a
                 rel="noopener noreferrer"
