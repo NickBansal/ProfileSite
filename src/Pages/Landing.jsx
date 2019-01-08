@@ -1,5 +1,5 @@
 import React from 'react'
-import Mountain from '../Stylesheets/Images/Mountain.JPG'
+import Mountain from '../Stylesheets/Images/Mountain.jpg'
 import Me from '../Stylesheets/Images/Me.JPG'
 import IconLinks from '../Components/IconLinks'
 import Snowflakes from '../Components/Snowflakes'
