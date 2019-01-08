@@ -1,5 +1,6 @@
 #About {
     height: 100vh;
+    min-height: 900px;
     background:	#9aa5c7;
     color: white;
     padding: 100px 40px;

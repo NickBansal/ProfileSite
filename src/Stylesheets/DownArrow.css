@@ -62,3 +62,9 @@ i {
   display: block;
   color: #fff;
 }
+
+@media (max-width: 650px) {
+  .arrow {
+    margin-bottom: 25px;
+  }
+}
