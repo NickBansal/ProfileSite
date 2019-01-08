@@ -10,14 +10,13 @@ const JSProjects = () => {
                 <div className="hvrbox-text">
                     <h2>JS Projects</h2>
                     <br className="Break"/>
-                    <p>I have built a few stand alone projects using ReactJS. 
-                        The projects have not been deployed so in order to play you will have to follow the instructions on the readme</p>
+                    <p>Here I have listed a selection of Javascript projects I created using JQuery/Vanilla JS with links to my Codepen page</p>
                     <br />
                     <a
                     className="MyProjects"
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="https://github.com/NickBansal/TicTacToe">Tic Tac Toe - with AI
+                    href="https://codepen.io/NickyBee/pen/rorNjq">JS-Clock
                     </a>
                     <br />
                     <br />
@@ -25,7 +24,7 @@ const JSProjects = () => {
                     className="MyProjects"
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="https://github.com/NickBansal/GameOfLife">Game of Life
+                    href="https://codepen.io/NickyBee/pen/yGqLWG">Color Game
                     </a>
                     <br />
                     <br />
@@ -33,7 +32,7 @@ const JSProjects = () => {
                     className="MyProjects"
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="https://github.com/NickBansal/Snake">Snake
+                    href="https://codepen.io/NickyBee/pen/vdawoq">Wikipedia Viewer
                     </a>
                 </div>
             </div>
