@@ -5,6 +5,7 @@ import JSProjects from '../Components/JSProjects'
 import P5Projects from '../Components/p5Projects'
 import NCProject from '../Components/NCProject'
 import SoundCloud from '../Components/SoundCloud'
+import ReactProjects from '../Components/ReactProjects'
 
 const Projects = () => {
 
@@ -25,10 +26,13 @@ const Projects = () => {
                         <NCProject />
                     </div>
                     <div>
-                        <P5Projects />
+                        <ReactProjects />
                     </div>
                     <div>
                         <JSProjects />
+                    </div>
+                    <div>
+                        <P5Projects />
                     </div>
                     <div>
                         <SoundCloud />
