@@ -5,7 +5,8 @@ h3 {
   font-size: 30px;
   opacity: 0;
   text-shadow: 1px 1px 7px black;
-  animation: 1 fadein 1s forwards;
+  -webkit-animation: 1 fadein 1s forwards;
+          animation: 1 fadein 1s forwards;
 }
 
 
@@ -15,8 +16,10 @@ h3 {
   color: white;
   margin-right: 450px;
   opacity: 0;
-  animation: 1 titleSlide 1s forwards;
-  animation-delay: 0.5s
+  -webkit-animation: 1 titleSlide 1s forwards;
+          animation: 1 titleSlide 1s forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s
 }
 
 #MePic {
@@ -25,9 +28,19 @@ h3 {
   border: 5px solid white;
   margin-left: 450px;
   opacity: 0;
-  animation: 1 picSlide 1s forwards;
-  animation-delay: 0.5s;
-  box-shadow: none
+  -webkit-animation: 1 picSlide 1s forwards;
+          animation: 1 picSlide 1s forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-box-shadow: none;
+          box-shadow: none
+}
+
+@-webkit-keyframes titleSlide {
+  100% {
+    opacity: 1;
+    margin-right: 0
+  }
 }
 
 @keyframes titleSlide {
@@ -37,12 +50,20 @@ h3 {
   }
 }
 
+@-webkit-keyframes picSlide {
+  100% {
+    opacity: 1;
+    margin-left: 0;
+    -webkit-box-shadow: -1px 4px 40px 1px white ;
+    box-shadow: -1px 4px 40px 1px white;
+  }
+}
+
 @keyframes picSlide {
   100% {
     opacity: 1;
     margin-left: 0;
     -webkit-box-shadow: -1px 4px 40px 1px white ;
-    -moz-box-shadow: -1px 4px 40px 1px white;
     box-shadow: -1px 4px 40px 1px white;
   }
 }
@@ -65,7 +86,12 @@ h3 {
   }
 
   nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column
   }
 }

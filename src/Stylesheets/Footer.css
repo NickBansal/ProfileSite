@@ -1,7 +1,10 @@
 .Footer {
     position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding: 5px 40px;
     bottom: 0;
     width: 100%;
@@ -13,7 +16,10 @@
 
 @media (max-width: 670px) {
     .Footer {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         font-size: 15px
     }
 }
