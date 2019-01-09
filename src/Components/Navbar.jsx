@@ -1,23 +1,23 @@
 import React from 'react'
 import '../Stylesheets/Navbar.css'
-import ScrollIntoView from 'react-scroll-into-view'
+import ScrollTo from 'react-scroll-into-view'
 
 const Navbar = () => {
     return (
         <nav>
-            <ScrollIntoView selector="#TitlePage">
+            <ScrollTo selector="#TitlePage">
                 <h1 id="Name">Nick Bansal</h1>
-            </ScrollIntoView>
+            </ScrollTo>
             <ul className="NavLinks">
-            <ScrollIntoView selector="#About">
+            <ScrollTo selector="#About">
                 <li>About</li>
-            </ScrollIntoView>
-            <ScrollIntoView selector="#Skills">
+            </ScrollTo>
+            <ScrollTo selector="#Skills">
                 <li>Skills</li>
-            </ScrollIntoView>
-            <ScrollIntoView selector="#Projects">
+            </ScrollTo>
+            <ScrollTo selector="#Projects">
                 <li>Projects</li>
-            </ScrollIntoView>
+            </ScrollTo>
             </ul>
         </nav>
     )
