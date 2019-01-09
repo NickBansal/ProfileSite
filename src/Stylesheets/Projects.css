@@ -41,6 +41,12 @@
     color: #fff;
 }
 
+.slick-arrow {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
 @media (max-width: 650px) {
     #Projects h1 {
         font-size: 35px;
