@@ -105,7 +105,7 @@ a.MyProjects {
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: underline
 }
 
 @media (max-width: 650px) {
@@ -114,8 +114,9 @@ a:hover {
         width: 250px;
 	}
 	
-	.hvrbox:hover .hvrbox-layer_scale, .hvrbox.active .hvrbox-layer_scale {
-		width: 235px
+	.hvrbox .hvrbox-layer_top {
+		height: 250px;
+        width: 250px;
 	}
 
 	.hvrbox .hvrbox-text p {
