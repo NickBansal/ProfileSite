@@ -17,7 +17,7 @@ const NasaProject = () => {
                     className="MyProjects"
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="https://github.com/NickBansal/MarsRover">Github - Mars Rover
+                    href="https://github.com/NickBansal/MarsRover">Mars Rover
                     </a>
                     <br />
                     <br />
