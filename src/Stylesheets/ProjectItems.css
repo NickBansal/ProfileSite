@@ -129,11 +129,16 @@ a:hover {
 
 	.hvrbox-text h2 {
 		height: 40px;
-		width: 100%
+		background: none;
+		color: white
 	}
 
 	a.MyProjects {
 		font-size: 18px
+	}
+
+	#Projects {
+		padding: 100px 5px
 	}
 
 }
