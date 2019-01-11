@@ -2,7 +2,6 @@ import React from 'react'
 import Mountain from '../Stylesheets/Images/MountainView.jpg'
 import Me from '../Stylesheets/Images/Me.JPG'
 import IconLinks from '../Components/IconLinks'
-// import Snowflakes from '../Components/Snowflakes'
 import DownArrow from '../Components/DownArrow';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
@@ -28,7 +27,6 @@ const Landing = () => {
                 <h3>Author, DreamWeaver, Visionary...</h3>
                 <h1 id="MeJob">Full Stack Developer</h1>
                 <IconLinks />
-                {/* <Snowflakes /> */}
                 <img id="MePic" src={Me} alt="Me" />
             </div>
             <DownArrow />

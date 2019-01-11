@@ -130,7 +130,8 @@ a:hover {
 	.hvrbox-text h2 {
 		height: 40px;
 		background: none;
-		color: white
+		color: white;
+		font-size: 20px
 	}
 
 	a.MyProjects {
