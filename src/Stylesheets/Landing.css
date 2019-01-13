@@ -68,7 +68,7 @@ h3 {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
   #MeJob {
     font-size: 35px;
   }
@@ -93,5 +93,27 @@ h3 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column
+  }
+}
+
+
+@media (max-width: 420px) {
+  li {
+    margin: 5px 20px;
+    font-size: 15px
+  }
+  #Name {
+    font-size: 20px
+  }
+  #MeJob {
+    font-size: 25px;
+    text-shadow: none
+  }
+  #MeDescription {
+    font-size: 15px;
+    text-shadow: none
+  }
+  #MePic {
+    width: 200px;
   }
 }

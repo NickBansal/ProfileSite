@@ -24,7 +24,7 @@ const Landing = () => {
         <div style={style} id="TitlePage">
             <Navbar />
             <div style={{ paddingTop: '100px' }}>
-                <h3>Author, DreamWeaver, Visionary...</h3>
+                <h3 id="MeDescription">Author, DreamWeaver, Visionary...</h3>
                 <h1 id="MeJob">Full Stack Developer</h1>
                 <IconLinks />
                 <img id="MePic" src={Me} alt="Me" />

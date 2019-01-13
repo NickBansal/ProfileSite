@@ -73,7 +73,7 @@ i.i-link:hover {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     .fa-3x {
         font-size: 2em;
     }
