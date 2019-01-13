@@ -124,3 +124,14 @@
         font-size: 16px
     }
 }
+
+@media (max-width: 420px) {
+    #About h1 {
+        font-size: 25px;
+    }
+    .part2, .part3, .part4 {
+        width: 95%;
+        font-size: 13px
+    }
+
+}

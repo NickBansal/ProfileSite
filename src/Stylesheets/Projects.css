@@ -52,3 +52,9 @@
         font-size: 35px;
     }
 }
+
+@media (max-width: 420px) {
+    #Projects h1 {
+        font-size: 25px;
+    }
+}
